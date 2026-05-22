@@ -22,6 +22,7 @@ docs/Doxygen/*
 !docs/Doxygen/resources
 # Also don't ignore the docs/Whitepapers directory.
 !docs/WhitePapers
+!docs/autonomy_binder
 
 # Data. Ignore optimized models, but push base model.
 data/models/zed/.*
@@ -580,3 +581,7 @@ FodyWeavers.xsd
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
+docs/autonomy_binder/Autonomy_Binder.pdf
+docs/autonomy_binder/Autonomy_Binder_Compiled.md
+docs/autonomy_binder/Autonomy_Binder_Pandoc.pdf
+docs/autonomy_binder/Autonomy_Binder_Pandoc.md
